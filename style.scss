@@ -172,24 +172,6 @@ img {
 }
 
 /* About section styling */
-#about {
-    display: flex;
-    justify-content: space-between;
-    gap: 8%;
-    padding: 5%;
-
-    p {
-        padding: 20px 0;
-    }
-}
-
-.about-details {
-    h1 {
-        position: relative;
-        text-transform: uppercase;
-        padding: 0 0 2% 3%;
-    }
-
     h1::before {
         content: '';
         position: absolute;
@@ -199,7 +181,6 @@ img {
         left: 0;
         border-left: 3px solid $bgColor2;
     }
-}
 
 #projects {
     padding: 5%;
@@ -290,91 +271,9 @@ h1 {
     padding: 2% 0;
 }
 
-#progress {
-    background-color: $secondaryColor;
-    border-radius: 13px;
-    height: 10px;
-    width: 550px;
-    padding: 0;
-}
-
-#progress::after {
-    content: '';
-    display: block;
-    background-color: $bgColor2;
-    width: 99%;
-    height: 100%;
-    border-radius: 9px;
-}
-
-.progressbar {
-    padding: 10px 0;
-
-    p {
-        color: $secondaryColor;
-        font-weight: $textWeight;
-        padding-bottom: 5px;
-    }
-}
-
-.css #progress::after {
-    width: 80%;
-}
-
-.jquery #progress::after {
-    width: 50%;
-}
-
-.javascript #progress::after {
-    width: 55%;
-}
-
-.bootstrap #progress::after {
-    width: 90%;
-}
-
-.node #progress::after {
-    width: 50%;
-}
-
 .responsive-website::after {
     width: 80%;
 }
-
-/* Services styling 
-#service-wrapper {
-    padding: 5%;
-    text-align: center;
-    .paragraph {
-        width: 70%;
-        margin: auto;
-    }
-}
-.services {
-    display: flex;
-    justify-content: space-between;
-    gap: 5%;
-    padding: 5% 0;
-    img {
-        width: 60px;
-        padding-bottom: 10px;
-    }
-    p {
-        color: $secondaryColor;
-        padding: 20px 0;
-    }
-}
-.service-grid {
-    border: 1px solid $primaryColor;
-    border-radius: 10px;
-    padding: 20px 30px;
-    cursor: pointer;
-}
-.service-grid:hover {
-    background-color: $primaryColor;
-    color: black;
-}
- */
 
 #contact {
     display: grid;
@@ -520,30 +419,6 @@ footer {
         top: 10px;
     }
 
-    .hero {
-        display: flex;
-        flex-direction: column-reverse;
-        justify-content: center;
-        align-items: center;
-        align-self: center;
-        text-align: center;
-        padding: 35% 5% 5% 5%;
-    }
-
-    .hero h1 {
-        font-size: 2rem;
-        line-height: 40px;
-    }
-
-    .hero_svg {
-        max-width: 70%;
-        margin: auto;
-    }
-
-    .hero_content {
-        padding: 10% 0 0 0;
-    }
-
     p,
     .stack {
         font-size: 16px;
@@ -574,26 +449,6 @@ footer {
         flex-direction: column;
         padding: 5% 0;
     }
-
-    .skill_paragraph {
-        text-align: left;
-    }
-
-    #progress {
-        width: 100%;
-    }
-/*
-    #service-wrapper .paragraph {
-        width: 100%;
-    }
-    .services {
-        flex-direction: column;
-        padding: 3% 0;
-    }
-    .service-grid {
-        margin: 5% 0;
-    }
-*/
     .gallery {
         grid-template-columns: auto;
         gap: 2%;
