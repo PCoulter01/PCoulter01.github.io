@@ -166,7 +166,6 @@ section {
   box-shadow: 0 0 10px black;
   border-radius: 20px;
   line-height: 3em;
-  min-width: 300px;
 }
 .cell {
   color: white;
