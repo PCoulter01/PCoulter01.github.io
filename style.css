@@ -298,8 +298,7 @@ footer {
     margin: 10px;
   }
   .box {
-    display: block;
-    position: absolute;
+    grid: 100%
   }
 }
 
