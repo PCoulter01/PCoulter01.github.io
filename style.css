@@ -42,6 +42,50 @@ header {
   text-align: center;
 }
 
+/* Grid style */
+.wrapper-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-gap: 2rem;
+  justify-content: center;
+  width: 40%;
+  margin: auto;
+}
+
+.container {
+  overflow: hidden;
+  box-shadow: 0px 2px 8px 0px black;
+  text-align: center;
+  border-radius: 1rem;
+  position: relative;
+}
+
+.container p {
+  display: inline-block;
+  width: 50%;
+}
+
+.banner-img {
+  position: absolute;
+  background-image: url(https://images2.alphacoders.com/238/thumb-1920-238870.jpg);
+  height: 10rem;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.profile-img {
+  width: 8rem;
+  clip-path: circle(60px at center);
+  margin-top: 4.5rem;
+}
+
+.description {
+  margin: 1rem 2rem;
+  font-size: 0.9rem;
+}
+
 .intro {
   font-family: 'Proza Libre', sans-serif;
   font-size: 4.6em;
@@ -137,10 +181,10 @@ section {
 }
 
 /* About section styling */
-.about-text p {
-  display: grid;
-  text-align: center;
+.about-card {
+  padding-bottom: 206px;
 }
+
 .about-icon {
   display: block;
   margin-left: auto;
@@ -153,38 +197,25 @@ section {
 .heading {
   margin-top: 10px;
 }
+
 .header {
   left: 28%;
   position: relative;
   font-size: 1.7rem;
 }
-.box {
-  display: grid;
-  place-content: center;
-  margin: 0 30%;
-  padding: 75px;
-  box-shadow: 0 0 10px black;
-  border-radius: 20px;
-  line-height: 3em;
-}
+
 .cell {
   color: white;
   font-size: 100px;
   text-align: center;
 }
+
 .cell p {
   font-size: 1.1rem;
   color: black;   
   position: relative; 
+  vertical-align: middle;
 }
-.grid {
-    display: grid;
-    place-content: center;
-    height: 102%;
-    grid-template-columns: repeat(3, 1fr);
-    column-gap: 50px;
-    row-gap: 100px;
-  }
 
 /* Projects styling */
 #projects {
@@ -237,7 +268,7 @@ section {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 5% 1fr 5% 1fr;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 5%;
   text-align: left;
   padding: 1% 0;
@@ -289,42 +320,4 @@ footer {
   display: block;
   padding-top: 40px;
   margin-top: 40px;
-}
-
-/* Mobile styling */
-
-@media only screen and (max-width: 450px) {
-  section {
-    margin: 10px;
-  }
-  .box {
-    grid: 100%
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  body {
-    max-width: 100%;
-  }
-  
-  .box {
-    grid: 100%;
-  }
-
-  .gallery {
-    -ms-grid-columns: auto;
-    grid-template-columns: auto;
-    gap: 2%;
-    padding: 3%;
-  }
-
-  footer {
-    padding: 5%;
-  }
-}
-
-@media (max-width: 1200px) {
-  .grid {  
-    grid-template-columns: repeat(2, 1fr);  
-  }
 }
