@@ -13,6 +13,11 @@
   box-sizing: inherit;
 }
 
+@viewport {
+  zoom: 1.0;
+  width: extend-to-zoom;
+}
+
 body {
   font-family: "Proxima Nova", sans-serif;
   background-image: linear-gradient(to top, #505285 0%, #585e92 12%, #65689f 25%, #7474b0 37%, #7e7ebb 50%, #8389c7 62%, #9795d4 75%, #a2a1dc 87%, #b5aee4 100%);
