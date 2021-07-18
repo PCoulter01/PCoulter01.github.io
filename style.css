@@ -112,7 +112,7 @@ header {
 
 .lead {
   font-family: 'Proza Libre', sans-serif;
-  font-size: 2.2em !important;
+  font-size: 1.5em !important;
   color: white;
   position: relative;
   bottom: 2em;
@@ -153,6 +153,7 @@ section {
   font-size: 1.2em;
   padding: 3em;
   position: relative;
+  white-space: nowrap;
 }
 
 .nav-item {
