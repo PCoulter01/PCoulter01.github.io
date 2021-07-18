@@ -18,7 +18,7 @@ body {
   background-image: linear-gradient(to top, #505285 0%, #585e92 12%, #65689f 25%, #7474b0 37%, #7e7ebb 50%, #8389c7 62%, #9795d4 75%, #a2a1dc 87%, #b5aee4 100%);
   overflow-x: hidden;
   padding-top: 40px;
-  margin: 0 auto;
+  width: auto;
 }
 
 a {
@@ -43,7 +43,7 @@ header {
   text-align: center;
 }
 
-/* Grid style */
+/* Card style */
 .wrapper-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
@@ -107,7 +107,6 @@ header {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
-  -webkit-user-select: none;
   -webkit-touch-callout: none;
 }
 
@@ -117,10 +116,6 @@ header {
   color: white;
   position: relative;
   bottom: 2em;
-}
-
-.lead:hover {
-  cursor: pointer;
 }
 
 h2 {
@@ -151,7 +146,7 @@ section {
   text-align: center !important;
   line-height: 1.4;
   font-family: 'Proza Libre', sans-serif;
-  font-size: 1.2em;
+  font-size: 1em;
   padding: 3em;
   position: relative;
   white-space: nowrap;
@@ -184,7 +179,7 @@ section {
 
 /* About section styling */
 .about-card {
-  padding-bottom: 206px;
+  padding-bottom: 257px;
 }
 
 .about-icon {
