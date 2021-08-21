@@ -3,7 +3,7 @@
 </h1>
 
 <p>
-  A single-page personal <a href="patrickcoulter.me" target="_blank"> portfolio </a> used to show off my skills as a full-stack developer.
+  A single-page personal <a href="https://patrickcoulter.me" target="_blank"> portfolio </a> used to show off my skills as a full-stack developer.
 </p>
 
 <p>
