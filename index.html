@@ -1,315 +1,553 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, inital-scale=1.0">
-    <title> Patrick Coulter - Portfolio </title>
-    <link rel="stylesheet" href="style.css">
-    
-    <!-- Links to Devicon -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.12.0/devicon.min.css">
-    
-    <!-- Links to Font Awesome -->
-    <script src="https://kit.fontawesome.com/ef5186996b.js"></script>
-</head>
-
-<body>
-        <!-- Profile section grid -->
-        <div class="profile">
-            <div class="profile_content">
-                <header>
-     
-                    <h1>Hi, I'm Patrick</h1>
-                
-                  <p class="lead">Full Stack Web Developer and Artist</p>
-                  <div class="social-links2">
-                    <a href="https://twitter.com/PatricksCode" target="_blank">
-                        <i class="fab fa-twitter" title="Twitter"></i>
-                      </a>
-                      <a href="https://www.linkedin.com/in/patrick-coulter-0582a3211/" target="_blank">
-                        <i class="fab fa-linkedin" title="LinkedIn"></i>
-                      </a>
-                      <a href="https://github.com/Patepic" target="_blank">
-                        <i class="fab fa-github" title="GitHub"></i>
-                      </a>
-                  </div>
-                </div>
-              </div>
-                </header>
-    
-
-    <!-- Nav bar -->
-    <div class="nav-bar">
-        <ul>
-          <a href="#skill">
-            <li class="nav-item">Skills&nbsp;&nbsp;</li>
-          </a>|&nbsp;&nbsp;
-          <a href="#projects">
-            <li class="nav-item">Portfolio&nbsp;&nbsp;</li>
-          </a>|&nbsp;&nbsp;
-          <a href="#contact">
-            <li class="nav-item">Contact&nbsp;&nbsp;</li>
-          </a>|&nbsp;&nbsp;
-          <a href="#" onclick="return false;"
-            class="nev-item">
-            <li class="nav-item">Blog</li>
-          </a><!--|&nbsp;&nbsp;
-          <a href="" target="_blank"
-            class="nav-item">
-            <li class="nav-item">Resume</li>
-          </a>-->
-        </ul>
-      </div> 
-
-    <div class="about-card">
-      <div class="wrapper-grid">
-        <div class="container">
-          <div class='banner-img'></div>
-          <img src="images/bitmoji.png" alt='profile image' class="profile-img">
-          <br>
-          <p class="description">Hi there! My name is Patrick and I am web developer and artist who does both front and back end design.  
-            I'm passionate about creating modern websites and applications that are aesthetically pleasing, responsive and emphasizes on the user experiences.
-          <br>
-          <br>
-            Currently, I'm a 3rd year student at Wentworth Institute of Technology, a small technical design and engineering university in Boston, working to get my degree in computer science.
-          </p>
-        </div>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Patrick Coulter - Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./assets/style/style.css" type="text/css">
+    <link rel="stylesheet" href="./assets/style/theme.css" type="text/css">
+    <link rel="stylesheet" href="./assets/style/themeSwitcher.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <!-- Preloader -->
+    <div class="preloader">
+      <div class="loader">
       </div>
     </div>
-    
-      <section id="skill">
-            <h1 class="heading"><center> My Skills Include: </center></h1>
-            <br>
-            <p class="header">Front End</p>
-              <div class="wrapper-grid">
-                <div class="container">
-                    <div class="cell"><i class="devicon-html5-plain colored"></i>
-                    <p>HTML5</p>
-                    </div>
-                    <div class="cell"><i class="devicon-css3-plain colored"></i>
-                    <p>CSS3</p>
-                    </div>
-                    <div class="cell"><i class="devicon-javascript-plain colored"></i>
-                    <p>JavaScript</p>
-                    </div>
-                    <div class="cell"><i class="devicon-java-plain colored"></i>
-                    <p>JavaFX</p>
-                    </div>
-                    <div class="cell"><i class="devicon-sass-plain colored"></i>
-                    <p>SASS</p>
-                    </div>
-                </div>
+    <!-- Preloader End -->
+    <!-- Main Container -->
+    <div class="main-container">
+      <!-- Aside -->
+      <div class="aside">
+        <!-- Nav Toggler Button -->
+        <div class="nav-toggler">
+          <span></span>
+        </div>
+        <!-- Nav Toggler Button End -->
+        <div class="aside-inner">
+        <!-- Logo -->
+        <div class="logo">
+          <a href="index.html">Patrick</a>
+        </div>
+        <!-- Logo End -->
+        <!-- Navbar -->
+        <nav class="nav">
+        <ul>
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="https://patrickscode.hashnode.dev" target="_blank">Blog</a></li>
+        </ul>
+        <br>
+        <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="PatricksCode" data-color="#568AE3" data-emoji="" 
+            data-font="Cookie" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#ffffff" data-coffee-color="#FFDD00" ></script>
+        </nav>
+        <!-- Navbar End -->
+        <!-- Copyright -->
+        <footer>
+         <small> &copy; 2021 Patrick Coulter</small>
+        </footer>
+        <!-- Copyright End -->
+      </div>
+      </div>
+      <!-- Aside End -->
+      <!-- Main Content -->
+      <div class="main-content">
+        <!-- Home Section -->
+        <section class="home section active" id="home">
+          <div class="container">
+            <div class="intro">
+              <img src="images/profile.jpg" alt="pushpa's img" class="shadow-dark">
+              <h1>Patrick Coulter</h1>
+              <p>I'm a Full-Stack Developer, Digital Creator & Java Enthusiast</p>
+              <div class="social-link">
+                <a href="https://twitter.com/PatricksCode" target="_blank"> <i class="fa fa-twitter"></i> </a>
+                <a href="https://www.instagram.com/patrickscode/"target="_blank"> <i class="fa fa-instagram"></i> </a>
+                <a href="https://www.linkedin.com/in/patrick-coulter-0582a3211/" target="_blank"> <i class="fa fa-linkedin"></i> </a>
+                <a href="https://github.com/Patepic" target="_blank"> <i class="fa fa-github"></i> </a>
+                <a href="mailto:patrick01@gmail.com" target="_blank"> <i class="fa fa-envelope-o"></i> </a>
               </div>
-            <br>
-            <p class="header">Back End</p>
-              <div class="wrapper-grid">
-                  <div class="container">
-                    <div class="cell"><i class="devicon-python-plain colored"></i>
-                    <p>Python</p>
-                    </div>
-                    <div class="cell"><i class="devicon-flask-plain colored"></i>
-                    <p>Flask</p>
-                    </div>
-                    <div class="cell"><i class="devicon-java-plain colored"></i>
-                    <p>Java</p>
-                    </div>
-                    <div class="cell"><i class="devicon-mysql-plain colored"></i>
-                    <p>MySQL</p>
-                    </div> 
-                    <div class="cell"><i class="devicon-microsoftsqlserver-plain"></i>
-                    <p>SQL</p>
-                    </div>   
-                  </div>
-              </div>
-            <br>
-            <p class="header">Other Tools</p>
-              <div class="wrapper-grid">
-                  <div class="container">
-                    <div class="cell"><i class="devicon-github-plain colored"></i>
-                    <p>Github</p>
-                    </div>
-                    <div class="cell"><i class="devicon-git-plain colored"></i>
-                    <p>Git</p>
-                    </div>
-                    <div class="cell"><i class="devicon-photoshop-plain colored"></i>
-                    <p>Photoshop</p>
-                    </div>
-                    <div class="cell"><i class="devicon-vscode-plain colored"></i>
-                    <p>Visual Studio Code</p>
-                    </div>
-                    <div class="cell"><i class="devicon-intellij-plain colored"></i>
-                    <p>IntelliJ</p>
-                </div>  
             </div>
           </div>
-      </section>
-
-        <div id="projects">
-            <h1 class="heading"> Projects </h1>
-            <!-- The projects CSS grid wrapper -->
-            <div class="gallery">
-                <div class="gallery_items gallery-1">
-                    
-                    <div class="project-details">
-                        <!-- This is project details header that contain h4 and icons -->
-                        <div class="inner-project-header">
-                            <h4>  </h4>
-                            <!-- The project github and external link icon wrapper -->
-                            <div class="links_icons">
-                                <img src="./images/github-logo.svg" alt="Github"
-                                        class="project-links">
-
-                                <img src="./images/foreign.svg" alt="Github"
-                                        class="project-links">
-                            </div>
-                        </div>
-                        <h1><center>
-                            COMING SOON!
-                        </center></h1>
+        </section>
+        <!-- Home Section End -->
+        <!-- About Section -->
+        <section class="about section" id="about">
+          <div class="container">
+            <div class="row">
+              <div class="section-title padd-15">
+                <h2>About Me</h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="about-content padd-15">
+                <div class="row">
+                  <div class="about-text padd-15">
+                    <h3>Hello There!</h3>
+                    <p>Hi, I'm Patrick (he/they). I am a third-year Computer Science student at Wentworth Institute of Technology, Boston. 
+                      My ultimate goal is to become a Full-Stack Developer, with an emphasis on websites and apps that have a great user experience.
+                      I am passionate about human rights and equality. Additionally, I am motivated, diligent, and love a challenge.
+                      I have experience in front-end & back-end development as well as database Technologies. 
+                      Also, I am skilled in computer networking & security, troubleshooting, technical support, git/GitHub, and data structures & algorithms.
+                      I'm looking forward to expanding my skill sets and seeking further opportunities in the Full-Stack Development field.</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="personal-info padd-15">
+                    <div class="row">
+                      <div class="info-item padd-15">
+                        <p>City: <span>Boston, Massachusetts</span> </p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>Email: <span>patrickcoulter01@gmail.com</span> </p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>Intrest: <span>AI, Machine Learning & Data Science</span> </p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>Hobbies: <span>Anime, Coding & Gaming</span> </p>
+                      </div>
                     </div>
-                </div>
-
-                <div class="gallery_items gallery-2">
-                    
-                    <div class="project-details">
-                        <!-- This is project details header that contain h4 and icons -->
-                        <div class="inner-project-header">
-                            <h4>  </h4>
-                            <!-- The project github and external link icon wrapper -->
-                            <div class="links_icons">
-                                <img src="./images/github-logo.svg" alt="Github"
-                                        class="project-links">
-
-                                <img src="./images/foreign.svg" alt="Github"
-                                        class="project-links">
-                            </div>
-                        </div>
-                        <h1><center>
-                            COMING SOON!
-                        </center></h1>
+                    <div class="row">
+                      <div class="buttons padd-15">
+                        <a href="assets/PatrickCoulter_Resume.pdf" target="_blank"class="btn">Resume <i class="fa fa-download ml-1" alt="download icon" aria-hidden="true"></i></a>
+                      </div>
                     </div>
-                </div>
-
-                <div class="gallery_items gallery-3">
-                    
-                    <div class="project-details">
-                        <!-- This is project details header that contain h4 and icons -->
-                        <div class="inner-project-header">
-                            <h4>  </h4>
-                            <!-- The project github and external link icon wrapper -->
-                            <div class="links_icons">
-                                <img src="./images/github-logo.svg" alt="Github"
-                                        class="project-links">
-
-                                <img src="./images/foreign.svg" alt="Github"
-                                        class="project-links">
-                            </div>
+                  </div>
+                  <div class="skills padd-15">
+                    <div class="row">
+                      <h1 class="padd-15">Languages</h1>
+                      <div class="skill-item languages padd-15">
+                        <h4>HTML/CSS</h4>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 100%"></div>
+                            <div class="skill-percent">
+                              100%
+                          </div>
                         </div>
-                        <h1><center>
-                            COMING SOON!
-                        </center></h1>
-                    </div>
-                </div>
-
-                <div class="gallery_items gallery-4">
-                    
-                    <div class="project-details">
-                        <!-- This is project details header that contain h4 and icons -->
-                        <div class="inner-project-header">
-                            <h4>  </h4>
-                            <!-- The project github and external link icon wrapper -->
-                            <div class="links_icons">
-                                <img src="./images/github-logo.svg" alt="Github"
-                                        class="project-links">
-
-                                <img src="./images/foreign.svg" alt="Github"
-                                        class="project-links">
-                            </div>
+                      </div>
+                      <div class="skill-item languages padd-15">
+                        <h4>JavaScript</h4>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 100%"></div>
+                            <div class="skill-percent">
+                              100%
+                          </div>
                         </div>
-                        <h1><center>
-                            COMING SOON!
-                        </center></h1>
-                    </div>
-                </div>
-
-                <div class="gallery_items gallery-5">
-                    
-                    <div class="project-details">
-                        <!-- This is project details header that contain h4 and icons -->
-                        <div class="inner-project-header">
-                            <h4>  </h4>
-                            <!-- The project github and external link icon wrapper -->
-                            <div class="links_icons">
-                                <img src="./images/github-logo.svg" alt="Github"
-                                        class="project-links">
-
-                                <img src="./images/foreign.svg" alt="Github"
-                                        class="project-links">
-                            </div>
+                      </div>
+                      <div class="skill-item languages padd-15">
+                        <h4>React</h4>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 100%"></div>
+                            <div class="skill-percent">
+                              100%
+                          </div>
                         </div>
-                        <h1><center>
-                            COMING SOON!
-                        </center></h1>
-                    </div>
-                </div>
-
-                <div class="gallery_items gallery-6">
-                    
-                    <div class="project-details">
-                        <!-- This is project details header that contain h4 and icons -->
-                        <div class="inner-project-header">
-                            <h4>  </h4>
-                            <!-- The project github and external link icon wrapper -->
-                            <div class="links_icons">
-                                <img src="./images/github-logo.svg" alt="Github"
-                                        class="project-links">
-
-                                <img src="./images/foreign.svg" alt="Github"
-                                        class="project-links">
-                            </div>
+                      </div>
+                      <div class="skill-item languages padd-15">
+                        <h4>Java</h4>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 100%"></div>
+                            <div class="skill-percent">
+                              100%
+                          </div>
                         </div>
-                        <h1><center>
-                            COMING SOON!
-                        </center></h1>
+                      </div>
+                      <div class="skill-item languages padd-15">
+                        <h4>Python</h4>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 100%"></div>
+                            <div class="skill-percent">
+                              100%
+                          </div>
+                        </div>
+                      </div>
+                      <div class="skill-item languages padd-15">
+                        <h4>MySQL/SQL</h4>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 100%"></div>
+                            <div class="skill-percent">
+                              100%
+                          </div>
+                        </div>
+                      </div>
                     </div>
+                  </div>
+                  <div class="skills padd-15">
+                    <div class="row">
+                      <h1 class="padd-15">IT Constructs</h1>
+                      <div class="skill-item IT_Constructs padd-15">
+                        <h4>Data Structures</h4>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 100%"></div>
+                            <div class="skill-percent">
+                              100%
+                          </div>
+                        </div>
+                      </div>
+                      <div class="skill-item IT_Constructs padd-15">
+                        <h4>Algorithms</h4>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 100%"></div>
+                            <div class="skill-percent">
+                              100%
+                          </div>
+                        </div>
+                      </div>
+                      <div class="skill-item IT_Constructs padd-15">
+                        <h4>Problem Solving</h4>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 100%"></div>
+                            <div class="skill-percent">
+                              100%
+                          </div>
+                        </div>
+                      </div>
+                      <div class="skill-item IT_Constructs padd-15">
+                        <h4>Computer Networking & Security</h4>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 100%"></div>
+                            <div class="skill-percent">
+                              100%
+                          </div>
+                        </div>
+                      </div>
+                      <div class="skill-item IT_Constructs padd-15">
+                        <h4>Troubleshooting</h4>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 100%"></div>
+                            <div class="skill-percent">
+                              100%
+                          </div>
+                        </div>
+                      </div>
+                      <div class="skill-item IT_Constructs padd-15">
+                        <h4>Technical Support</h4>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 100%"></div>
+                            <div class="skill-percent">
+                              100%
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="skills padd-15">
+                    <div class="row">
+                      <h1 class="padd-15">Tools/Technologies</h1>
+                      <div class="skill-item tools padd-15">
+                        <h4>Intellij</h4>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 100%"></div>
+                            <div class="skill-percent">
+                              100%
+                          </div>
+                        </div>
+                      </div>
+                      <div class="skill-item tools padd-15">
+                        <h4>VSCode</h4>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 100%"></div>
+                            <div class="skill-percent">
+                              100%
+                          </div>
+                        </div>
+                      </div>
+                      <div class="skill-item tools padd-15">
+                        <h4>Photoshop</h4>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 100%"></div>
+                            <div class="skill-percent">
+                              100%
+                          </div>
+                        </div>
+                      </div>
+                      <div class="skill-item tools padd-15">
+                        <h4>Git</h4>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 100%"></div>
+                            <div class="skill-percent">
+                              100%
+                          </div>
+                        </div>
+                      </div>
+                      <div class="skill-item tools padd-15">
+                        <h4>Github</h4>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 100%"></div>
+                            <div class="skill-percent">
+                              100%
+                          </div>
+                        </div>
+                      </div>
+                      <div class="skill-item tools padd-15">
+                        <h4>Microsoft Office</h4>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 100%"></div>
+                            <div class="skill-percent">
+                              100%
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                </div>
-        
-        <footer>
-            <!-- Social links divs -->
-            <section class="social-footer" id="contact">
+                <div class="row">
+                  <div class="education padd-15">
+                    <h3 class="title">Education</h3>
+                    <div class="timeline-box padd-15">
+                      <div class="row">
+                        <div class="timeline shadow-dark">
+                          <!-- TimeLine Item -->
+                          <div class="timeline-item">
+                            <div class="circle-dot">
 
-                <h2 id="contactText">Contact Me</h2>
-                <p id="footerText">Get in touch with me&nbsp&nbsp<i class="fas fa-long-arrow-alt-right"></i>
-          
-                  <a href="mailto:patrickcoulter01@gmail.com" id="emailLink">&nbsp;patrickcoulter01@gmail.com</a>
-                <p id="footerText">Or find me on:</p>
-          
-                <div class="social-links1">
-                  <a href="https://twitter.com/PatricksCode" target="_blank">
-                    <i class="fab fa-twitter" title="Twitter"></i>
-                  </a>
-                  <a href="https://www.linkedin.com/in/patrick-coulter-0582a3211/" target="_blank">
-                    <i class="fab fa-linkedin" title="LinkedIn"></i>
-                  </a>
-                  <a href="https://github.com/Patepic" target="_blank">
-                    <i class="fab fa-github" title="GitHub"></i>
-                  </a>
-                  
+                            </div>
+                            <h6 class="timeline-date">
+                              <i class="fa fa-calendar"></i>
+                              Expected August 2023
+                            </h6>
+                            <h4 class="timeline-title">Wentworth Institute of Technology, Boston.</h4>
+                            <p class="timeline-text">Bachelor of Science, Computer Science.
+                              <br>
+                              Current GPA: 3.00.
+                              <br>
+                              Related Courses: Computer Science I & II, Computer Organization, Data Structures, Databases, Algorithms.
+                            </p>
+                          </div>
+                          <!-- TimeLine Item End -->
+                          <!-- TimeLine Item -->
+                          <div class="timeline-item">
+                            <div class="circle-dot">
+
+                            </div>
+                            <h6 class="timeline-date">
+                              <i class="fa fa-calendar"></i>
+                              2015-2019
+                            </h6>
+                            <h4 class="timeline-title">South Shore Technical, Massachusetts.</h4>
+                            <p class="timeline-text">Computer Infernation Technology.
+                              <br>
+                              GPA: 3.60, Top 13% of Class.
+                              <br>
+                              Selected Courses: Honors Algebra 2, Honors Pre-Calculus.
+                            </p>
+                          </div>
+                          <!-- TimeLine End -->
+                        </div>
+                    </div>
+                    </div>
+                  </div>
+                  <div class="education padd-15">
+                    <h3 class="title">Experience</h3>
+                    <div class="timeline-box padd-15">
+                      <div class="row">
+                        <div class="timeline shadow-dark">
+                          <!-- TimeLine Item -->
+                          <div class="timeline-item">
+                            <div class="circle-dot">
+
+                            </div>
+                            <h6 class="timeline-date">
+                              <i class="fa fa-calendar"></i>
+                              
+                            </h6>
+                            <h4 class="timeline-title">Coming Soon!</h4>
+                            <p class="timeline-text">
+                              <br>
+                              
+                            </p>
+                          </div>
+                          <!-- TimeLine End -->
+                        </div>
+                    </div>
+                    </div>
+                  </div>
+                  <div class="education padd-15">
+                    <h3 class="title">Certifications</h3>
+                    <div class="timeline-box padd-15">
+                      <div class="row">
+                        <div class="timeline shadow-dark">
+                          <!-- TimeLine Item -->
+                          <div class="timeline-item">
+                            <div class="circle-dot">
+
+                            </div>
+                            <h6 class="timeline-date">
+                              <i class="fa fa-calendar"></i>
+                              2018
+                            </h6>
+                            <h4 class="timeline-title">Microsoft Security Certified.</h4>
+                            <p class="timeline-text">
+                              <br>
+                              Understanding security layers, operating system security, network security, and security software.
+                            </p>
+                          </div>
+                          <!-- TimeLine Item End -->
+                          <!-- TimeLine Item -->
+                          <div class="timeline-item">
+                            <div class="circle-dot">
+
+                            </div>
+                            <h6 class="timeline-date">
+                              <i class="fa fa-calendar"></i>
+                              2017
+                            </h6>
+                            <h4 class="timeline-title">Microsoft Networking Certified.</h4>
+                            <p class="timeline-text">
+                              <br>
+                              Understanding network infrastructures, network hardware, protocols and services.
+                            </p>
+                          </div>
+                          <!-- TimeLine Item End -->
+                          <!-- TimeLine Item -->
+                          <div class="timeline-item">
+                            <div class="circle-dot">
+
+                            </div>
+                            <h6 class="timeline-date">
+                              <i class="fa fa-calendar"></i>
+                              2017
+                            </h6>
+                            <h4 class="timeline-title">Osha 10 Certified.</h4>
+                            <p class="timeline-text">
+                              <br>
+                              Understanding the basic safety and health information in the work place.
+                            </p>
+                          </div>
+                          <!-- TimeLine End -->
+                        </div>
+                    </div>
+                    </div>
+                  </div>
                 </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- About Section End -->
+        <!-- Projects Section -->
+        <section class="project section" id="projects">
+          <div class="container">
+            <div class="row">
+              <div class="section-title padd-15">
+                <h2>My Projects</h2>
+              </div>
+            </div>
+            <div class="row">
+              <!-- Project Item -->
+              <div class="project-item padd-15">
+                <div class="project-item-inner shadow-dark">
+                  <div class="project-img">
+                    <img src="https://i.ibb.co/xJprzqg/pexels-ekaterina-bolovtsova-6192505.jpg" alt="">
+                  </div>
+                  <div class="project-info">
+                    <h4 class="project-title">Portfolio Website</h4>
+                    <p class="project-description">Used HTML, CSS and JavaScript to build the project. It has different
+                      pages like Home page, About page, Projects page and Contact page. Also has buttons for my blog and support sites. It has light and dark mode options. It's Mobile and Tablet friendly also.
+                    </p>
+                    <div class="buttons">
+                      <a href="https://github.com/Patepic/Patepic.github.io" class="btn">View Project</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="project-item padd-15">
+                <div class="project-item-inner shadow-dark">
+                  <div class="project-img">
+                    <img src="https://www.happycoders.eu/wp-content/uploads/2020/05/Insertion_Sort_Playing_Card_Example.png" alt="">
+                  </div>
+                  <div class="project-info">
+                    <h4 class="project-title">Sorting Algorithms</h4>
+                    <p class="project-description">Java-based command-line program that sorts an array of numbers using sorting algorithms.
+                      Algorithms used in this program are counting sort, insertion sort and radix sort. All have to have their own method to work and can be expanded to add other sorting algorithms.
+                    </p>
+                    <div class="buttons">
+                      <a href="https://github.com/Patepic/Sorting-Algorithms" class="btn">View Project</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+          <!-- Project Item End -->
+              <!-- Contact Section -->
+                <section class="contact section" id="contact">
+                  <div class="container">
+                    <div class="row">
+                      <div class="section-title padd-15">
+                        <h2>Contact Me</h2>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <!-- Contact Info Item -->
+                      <div class="contact-info-item padd-15">
+                        <div class="icon">
+                          <i class="fa fa-envelope"></i>
+                        </div>
+                        <p>patrickcoulter01@gmail.com</p>
+                      </div>
+                      <!-- Contact Info Item End -->
+                      <!-- Contact Info Item -->
+                      <div class="contact-info-item padd-15">
+                        <div class="icon">
+                          <i class="fa fa-map-marker"></i>
+                        </div>
+                        <p>Boston, Massachusetts</p>
+                      </div>
+                      <!-- Contact Info Item End -->
+                    </div>
+                    <!-- Contact Form -->
+                    <div class="row padd-15">
+                      <div class="contact-text">
+                        Want to get in touch about a job or just to chat? 
+                      </div>
+                    </div>
+                    <div class="row padd-15">
+                      <div class="buttons">
+                        <a href="mailto:patrickcoulter01@gmail.com" class="btn contact-btn">Email Me</a>
+                      </div>
+                    </div>
+                    <!-- Contact Form End-->
+                  </div>
               </section>
 
-              <!-- Footer -->
-    <footer class="footer">
-      <div>
-        <p id="footerText">&copy 2021 Patrick Coulter</p>
+              <!-- Contact Section End -->
+            </div>
+          </div>
+        </div>
+        <!-- Projects Section End -->
       </div>
-    </footer>
-  </div><!-- End Contact and Footer section-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="./script.js"></script>
-</body>
+      <!-- Main Content End -->
+    </div>
+    <!-- Main Container End -->
+    <!-- Theme Switcher -->
+    <div class="theme-switch">
+      <div class="toggle-theme-switcher">
+        <i class="fa fa-cog fa-spin"></i>
+      </div>
+      <h5>Theme</h5>
+      <label>
+        <input type="radio" class="mode-switch" name="body-mode" value="light" checked="true">
+        Light
+      </label>
+      <label >
+        <input type="radio" class="mode-switch" name="body-mode" value="dark">
+        Dark
+      </label>
+    </div>
+    <!-- Theme Switcher End -->
+    <!-- Template Js -->
+    <script src="./assets/script/script.js">
 
+    </script>
+      <!-- JavaScript for Theme Switcher -->
+      <script src="./assets/script/themeSwitcher.js">
+
+      </script>
+    <!-- JavaScript for Theme Switcher End -->
+  </body>
 </html>
