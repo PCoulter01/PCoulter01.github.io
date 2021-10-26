@@ -6,10 +6,10 @@
   border-right: 4px solid #568AE3;
   border-bottom: 4px solid #568AE3;
 }
-body.dark .aside .nav li a:hover,
-body.dark .aside .nav li a.active,
-.aside .nav li a:hover,
-.aside .nav li a.active{
+body.dark .aside .nav,
+body.dark .aside .nav,
+body.dark .aside .aside .nav a,
+li .fa{
   color: #568AE3;
 }
 .about .about-content .skills .skill-item .progress .progress-in,
@@ -18,15 +18,15 @@ body.dark .aside .nav li a.active,
 .btn,
 .section-title h2::before,
 .section-title h2::after,
-.home .intro .social-link a,
+.social-link a,
 .aside .nav-toggler span,
 .aside .nav-toggler span::before,
 .aside .nav-toggler span::after{
   background-color: #568AE3;
 }
-.contact-text,
 .contact .contact-info-item .icon .fa,
-.about .about-content .skills h1,
+.section-title .email .fa,
+.section-title .location .fas,
 .timeline-text span,
 .about .about-content .about-text h3 span{
   color: #568AE3;
