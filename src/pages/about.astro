@@ -2,6 +2,7 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import ContactCTA from '../components/ContactCTA.astro';
 import Hero from '../components/Hero.astro';
+import SkillIcons from '../components/SkillIcons.astro';
 ---
 
 <BaseLayout title="Patrick Coulter - Software Engineer" description="About Patrick Coulter">
@@ -85,18 +86,7 @@ import Hero from '../components/Hero.astro';
 			<section>
 				<h2 class="section-title">Skills</h2>
 				<div class="content">
-					<p class="about-text">
-						<b>Languages:</b> <br>Java, JavaScript (ES6+), Python, C/C++, SQL, HTML, CSS
-					</p>
-					<p class="about-text">
-						<b>Libraries & Frameworks:</b> <br>React, Astro JS, React/router, Node.js, Material UI, Tailwind
-					</p>
-					<p class="about-text">
-						<b>Tools & Platforms:</b> <br>Visual Studio Code, IntelliJ, Git, GitHub, Adobe Photoshop, MySQL, MS Project
-					</p>
-					<p class="about-text">
-						<b>Other Skills:</b> <br>Networking, Security, Windows Server 2012, Linux (Ubuntu)
-					</p>
+					<SkillIcons />
 				</div>
 			</section>
 		</main>
