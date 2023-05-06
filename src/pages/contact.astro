@@ -47,7 +47,8 @@ import Icon from "../components/Icon.astro";
                 <span class="circle one"></span>
                 <span class="circle two"></span>
 
-                <form name="contact" method="POST" data-netlify="true" onsubmit="submit">
+                <form name="contact" method="POST" data-netlify="true" onsubmit="submit" data-netlify-honeypot="bot-field" action="/success/">
+                    <input class="bot-field" name="bot-field">
                     <h3 class="title">Contact</h3>
                     <div class="input-container">
                         <input type="text" placeholder="name" class="input" name="name" />
@@ -77,6 +78,10 @@ import Icon from "../components/Icon.astro";
 
     a:hover {
         text-decoration-color: currentColor;
+    }
+
+    .bot-field {
+        display: none;
     }
 
     .container {
