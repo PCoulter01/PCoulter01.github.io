@@ -1,10 +1,10 @@
 /* Global variables */
 :root {
 	/* Colors */
-	--background: #ece6ff;
+	--background: #eee;
 	--text: #181818;
-	--project: #daceff;
-	--project-link: #b7a0ff;
+	--project: #f9f9f9;
+	--project-link: #f6f6f6;
 	--accent-light: #a285ff;
 	--accent-regular: #7d54ff;
 	--accent-dark: #5924ff;
@@ -54,7 +54,7 @@
 
 :root.theme-dark {
 	--background: #181818;
-	--text: #f8f6fb;
+	--text: #eee;
 	--project: #1f1f1f;
 	--project-link: #353535;
 	--accent-light: #5924ff;
